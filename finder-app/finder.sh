@@ -5,7 +5,7 @@
 # Check both arguments are given
 if [ $# -ne 2 ];
 then
-	echo "Error: missing arguments."
+	echo "Error: wrong number of arguments."
 	echo "Usage: $0 <filesdir> <searchstr>"
 	exit 1
 fi;
